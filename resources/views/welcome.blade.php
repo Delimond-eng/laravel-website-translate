@@ -14,6 +14,6 @@
     </ul>
     <h1>{{ $translateService->translate('Hello, world!', app()->getLocale()) }}</h1>
     <p>{{ $translateService->translate('This is a bilingual website.', app()->getLocale()) }}</p>
-    <p>{{ $translateService->translate('Je suis de la tournure que prend les choses !' , app()->getLocale()) }} </p>
+    <p>{{ $translateService->translate("J'aime la programmation informatique" , app()->getLocale()) }} </p>
 </body>
 </html>
